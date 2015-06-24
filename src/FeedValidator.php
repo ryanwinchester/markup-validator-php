@@ -2,7 +2,7 @@
 
 namespace Fungku\FeedValidator;
 
-use Fungku\FeedValidator\Contracts\FeedValidatorInterface;
+use Fungku\FeedValidator\Contracts\FeedValidator as FeedValidatorInterface;
 
 class FeedValidator
 {

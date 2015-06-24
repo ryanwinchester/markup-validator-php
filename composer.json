@@ -1,6 +1,7 @@
 {
-    "name": "fungku/w3-feed-validator-php",
-    "description": "Validate a feed",
+    "name": "fungku/feed-validator-php",
+    "description": "Validate an RSS or atom feed.",
+    "keywords": ["validate", "feed", "atom", "rss", "w3"],
     "license": "Apache-2.0",
     "authors": [
         {
@@ -8,5 +9,10 @@
             "email": "fungku@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Fungku\\FeedValidator\\": "src"
+        }
+    }
 }

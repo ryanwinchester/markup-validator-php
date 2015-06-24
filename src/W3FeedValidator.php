@@ -19,7 +19,7 @@ class W3FeedValidator implements FeedValidator
 
         $xml = $this->makeXML($response);
 
-        return $this->isValid($xml) && $this->getErrorCount($xml) < 1;
+        return $this->isValid($xml);
     }
 
     /**

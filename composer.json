@@ -1,0 +1,12 @@
+{
+    "name": "fungku/w3-feed-validator-php",
+    "description": "Validate a feed",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Ryan Winchester",
+            "email": "fungku@gmail.com"
+        }
+    ],
+    "require": {}
+}

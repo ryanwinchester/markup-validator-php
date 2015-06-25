@@ -9,7 +9,9 @@
             "email": "fungku@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=5.5"
+    },
     "autoload": {
         "psr-4": {
             "Fungku\\FeedValidator\\": "src"

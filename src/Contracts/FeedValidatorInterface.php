@@ -1,6 +1,6 @@
 <?php
 
-namespace Fungku\FeedValidator\Contracts;
+namespace Fungku\MarkupValidator\Contracts;
 
 interface FeedValidatorInterface
 {

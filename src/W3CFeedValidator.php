@@ -1,8 +1,8 @@
 <?php
 
-namespace Fungku\FeedValidator;
+namespace Fungku\MarkupValidator;
 
-use Fungku\FeedValidator\Contracts\FeedValidatorInterface;
+use Fungku\MarkupValidator\Contracts\FeedValidatorInterface;
 
 class W3CFeedValidator implements FeedValidatorInterface
 {

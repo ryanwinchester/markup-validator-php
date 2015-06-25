@@ -11,7 +11,7 @@ composer require fungku/feed-validator-php
 ## Usage
 
 ```php
-use Fungku\FeedValidator\FeedValidator;
+use Fungku\MarkupValidator\FeedValidator;
 
 $validator = new FeedValidator();
 

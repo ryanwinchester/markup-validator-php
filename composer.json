@@ -1,7 +1,7 @@
 {
-    "name": "fungku/feed-validator-php",
-    "description": "Validate an RSS or atom feed.",
-    "keywords": ["validate", "feed", "atom", "rss", "w3"],
+    "name": "fungku/markup-validator-php",
+    "description": "A markup validator, including RSS and atom feeds.",
+    "keywords": ["validate", "markup", "feed", "atom", "rss", "w3c"],
     "license": "Apache-2.0",
     "authors": [
         {
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Fungku\\FeedValidator\\": "src"
+            "Fungku\\MarkupValidator\\": "src"
         }
     }
 }

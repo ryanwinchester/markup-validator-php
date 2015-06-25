@@ -5,7 +5,7 @@ Uses W3.org feed validator to check if there are any errors in the feed.
 ## Install
 
 ```bash
-composer require fungku/feed-validator-php
+composer require fungku/markup-validator-php
 ```
 
 ## Usage

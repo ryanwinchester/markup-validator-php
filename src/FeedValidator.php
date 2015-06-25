@@ -11,7 +11,7 @@ class FeedValidator
      *
      * @var string
      */
-    protected $defaultFeedValidator = 'W3FeedValidator';
+    protected $defaultFeedValidator = 'W3CFeedValidator';
 
     /**
      * @var FeedValidatorInterface

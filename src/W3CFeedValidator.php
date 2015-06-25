@@ -2,9 +2,9 @@
 
 namespace Fungku\FeedValidator;
 
-use Fungku\FeedValidator\Contracts\FeedValidator;
+use Fungku\FeedValidator\Contracts\FeedValidatorInterface;
 
-class W3CFeedValidator implements FeedValidator
+class W3CFeedValidator implements FeedValidatorInterface
 {
     /**
      * Validate the atom or rss feed.

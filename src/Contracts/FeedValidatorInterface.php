@@ -2,7 +2,7 @@
 
 namespace Fungku\FeedValidator\Contracts;
 
-interface FeedValidator
+interface FeedValidatorInterface
 {
     /**
      * Validate an atom or rss feed.

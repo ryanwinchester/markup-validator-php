@@ -1,6 +1,6 @@
-# RSS and atom feed validator
+# Markup Validator
 
-Uses W3.org feed validator to check if there are any errors in the feed.
+Someday I'll add other things, but right now it is a feed validator.
 
 ## Install
 
@@ -8,7 +8,11 @@ Uses W3.org feed validator to check if there are any errors in the feed.
 composer require fungku/markup-validator-php
 ```
 
-## Usage
+### RSS and atom feed validator
+
+Uses W3.org feed validator to check if there are any errors in the feed.
+
+#### Usage
 
 ```php
 use Fungku\MarkupValidator\FeedValidator;

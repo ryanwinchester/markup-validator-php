@@ -22,10 +22,6 @@ class W3CFeedValidator implements FeedValidatorInterface
 
         $validity = $xml->getElementsByTagName('validity');
 
-        if ($validity->length && $validity->item(0)->nodeValue == 'true') {
-            return true;
-        }
-
-        return false;
+        return $validity->length && $validity->item(0)->nodeValue == 'true';
     }
 }
